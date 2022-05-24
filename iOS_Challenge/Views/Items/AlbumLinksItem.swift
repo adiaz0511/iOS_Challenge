@@ -18,7 +18,7 @@ struct AlbumLinksItem: View {
             
             HStack {
                 Spacer()
-                Text("price: ") + Text("$\(albumVM.selectedAlbum.formattedPrice)")
+                Text("price: ") + Text("$\(albumVM.selectedAlbum.formattedPrice) USD")
                 Spacer()
             }
             .padding()
