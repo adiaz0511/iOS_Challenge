@@ -15,7 +15,6 @@
 		CAED1295283D443600004CDF /* iOS_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED1294283D443600004CDF /* iOS_ChallengeUITests.swift */; };
 		CAED1297283D443600004CDF /* iOS_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED1296283D443600004CDF /* iOS_ChallengeUITestsLaunchTests.swift */; };
 		CAED12A4283D448C00004CDF /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED12A3283D448C00004CDF /* AlbumViewModel.swift */; };
-		CAED12A7283D488800004CDF /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = CAED12A6283D488800004CDF /* SwiftyJSON */; };
 		CAED12A9283D54B700004CDF /* AlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED12A8283D54B700004CDF /* AlbumDetailView.swift */; };
 		CAED12AB283D566D00004CDF /* AlbumRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED12AA283D566D00004CDF /* AlbumRow.swift */; };
 		CAED12AD283D569400004CDF /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED12AC283D569400004CDF /* Styles.swift */; };
@@ -71,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAED12A7283D488800004CDF /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +196,6 @@
 			);
 			name = iOS_Challenge;
 			packageProductDependencies = (
-				CAED12A6283D488800004CDF /* SwiftyJSON */,
 			);
 			productName = iOS_Challenge;
 			productReference = CAED1276283D443400004CDF /* iOS_Challenge.app */;
@@ -274,7 +271,6 @@
 			);
 			mainGroup = CAED126D283D443400004CDF;
 			packageReferences = (
-				CAED12A5283D488800004CDF /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 			);
 			productRefGroup = CAED1277283D443400004CDF /* Products */;
 			projectDirPath = "";
@@ -667,25 +663,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		CAED12A5283D488800004CDF /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		CAED12A6283D488800004CDF /* SwiftyJSON */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CAED12A5283D488800004CDF /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
-			productName = SwiftyJSON;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CAED126E283D443400004CDF /* Project object */;
 }
