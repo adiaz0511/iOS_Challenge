@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  iOS_Challenge
+
+  Created by Arturo Diaz on 24/05/22.
+  
+*/
+"artist-button" = "View Artist";
+"album-button" = "View Album";
+"price: " = "Price: ";
+"song" = "song";
+"songs" = "songs";
+"released " = "Released ";
+"No results" = "No results";
+"Search Albums" = "Search Albums";
+"Details" = "Details";
+"Done" = "Done";
